@@ -37,7 +37,7 @@ export const info = {
         },
         {
             emoji: '🌍',
-            text: "based in the Côte d'Ivoire (West Africa)"
+            text: "based in Côte d'Ivoire (West Africa)"
         },
         {
             emoji: "💼",
