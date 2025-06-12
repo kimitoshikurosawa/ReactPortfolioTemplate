@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
@@ -52,6 +53,11 @@ export default function About() {
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+            <Helmet>
+                <title>About Kimana Misago | Full-Stack Developer</title>
+                <meta name="description" content="Learn more about Kimana Misago, my journey into software development, my skills in technologies like React, Python, and JavaScript, and my passion for creating innovative solutions." />
+                <meta name="keywords" content="about Kimana Misago, Kimana Misago biography, full-stack developer skills, software development journey, tech skills, React, Python, JavaScript" />
+            </Helmet>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
