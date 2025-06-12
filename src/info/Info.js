@@ -26,14 +26,14 @@ export const info = {
     firstName: "Kimana",
     lastName: "Misago",
     initials: "MK", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "a Senior Developer & Cloud Architect",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🤖',
+            text: 'specializing in GenAI & Cloud-Native'
         },
         {
             emoji: '🌍',
@@ -41,11 +41,11 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "CEO & Co-Founder at Mplaces Africa"
+            text: "CEO & Co-Founder at Mplaces Africa / DOMOSO"
         },
         {
             emoji: "📧",
-            text: "kimana.misago@mplaces.net"
+            text: "kimana.misago@mplaces.africa"
         }
     ],
     socials: [
@@ -78,14 +78,33 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Kimana Misago. I'm Fullstack Developer and CEO of Mplaces Africa. I studied Computer science, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-    skills:
-        {
-            proficientWith: ['PHP', 'Python', 'git', 'github', 'Agile Methodology', 'html5', 'css3', 'React'],
-            exposedTo: ['nodejs', 'javascript', 'Machine Learning']
+    bio: "A Senior Full-Stack Developer and Cloud Architect with 9 years of experience, now specializing in Generative AI and Cloud-Native solutions. I build high-impact applications, from complex IoT systems to large-scale FinTech platforms. As a proven tech leader and co-founder, recently certified in Kubernetes and Google's Gemini API, I am passionate about driving innovation. Let's connect.",
+    skills: {
+        proficientWith: [
+            'PHP (Laravel, Symfony)', // 
+            'Python (Django, Flask)', // 
+            'Node.js', // 
+            'React.js', // 
+            'Flutter', // 
+            'AWS', // 
+            'Google Cloud (GCP)', // 
+            'Docker', // 
+            'Kubernetes', // 
+            'Generative AI (Gemini, OpenAI)', // 
+            'Terraform', // 
+            'CI/CD', // 
+            'Agile/Scrum', // 
+            'Git',
+            'GitHub'
+        ],
+        exposedTo: ['TensorFlow', 'Vertex AI', 'Tailwind CSS'] //
         }
     ,
     hobbies: [
+        {
+            label: 'Basketball', // 
+            emoji: '🏀'
+        },
         {
             label: 'reading',
             emoji: '📖'
@@ -105,36 +124,36 @@ export const info = {
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
-            title: "Mplaces.africa",
-            live: "https://mplaces.africa", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            //source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
-            title: "Trivia App",
-            //live: "https://paytonpierce.dev",
-            source: "https://github.com/kimitoshikurosawa/Trivia-api",
+            title: "AI-Powered English Accent Detection Portal",
+            live: "http://accent-detector.domoso.ci", // Link to the live project
+            source: "https://github.com/kimitoshikurosawa", // Link to your GitHub
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            title: "Social Media Content Generator LLM",
+            live: "https://github.com/kimitoshikurosawa/social_media_content_generator", // Link to the live project
+            source: "https://github.com/kimitoshikurosawa/social_media_content_generator", // Link to the repository
+            image: mock5
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "DomoSo - IoT & SaaS Platform",
+            live: "https://domoso.ci", // 
+            source: "https://github.com/kimitoshikurosawa",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            title: "Hypérion 2 - Reinsurance Platform",
+            live: "https://hyperion.africa", //
+            source: "https://github.com/kimitoshikurosawa",
+            image: mock3
+        },
+        {
+            title: "Mplaces - African Online Market",
+            live: "https://mplaces.africa", //
+            source: "https://github.com/kimitoshikurosawa",
+            image: mock1
         }
     ],
     volunteering: [ // This is where your portfolio projects will be detailed
