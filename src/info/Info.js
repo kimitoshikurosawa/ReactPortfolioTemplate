@@ -110,31 +110,36 @@ export const info = {
             title: "Project 1",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            image: mock1,
+            imageAlt: "Screenshot or mockup of Project 1"
         },
         {
             title: "Project 2",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock2
+            image: mock2,
+            imageAlt: "Screenshot or mockup of Project 2"
         },
         {
             title: "Project 3",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock3
+            image: mock3,
+            imageAlt: "Screenshot or mockup of Project 3"
         },
         {
             title: "Project 4",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock4
+            image: mock4,
+            imageAlt: "Screenshot or mockup of Project 4"
         },
         {
             title: "Project 5",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            image: mock5,
+            imageAlt: "Screenshot or mockup of Project 5"
         }
     ],
     volunteering: [ // This is where your portfolio projects will be detailed
